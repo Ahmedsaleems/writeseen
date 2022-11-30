@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-8)+etv-mf_@40fxag7hls&i5f)34rq)8h-qzwpyz2y#ve_o3xl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = True
 
 # ALLOWED_HOSTS = ['18.130.132.238','*']
 ALLOWED_HOSTS = ['18.130.132.238','localhost:3000','http://localhost:3000','*']
@@ -213,7 +213,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = '/home/ubuntu/writeseen/WriteSeen/static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
